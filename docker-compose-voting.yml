@@ -85,8 +85,8 @@ services:
         constraints: [node.role == manager]
 
 networks:
-  frontend
-  backend
+  frontend:
+  backend:
 
 volumes:
   db-data:
